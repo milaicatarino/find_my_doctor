@@ -9,7 +9,7 @@ html,body{
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    height: 4rem;
+    height: 8rem;
 }
 
 h1{
@@ -33,7 +33,6 @@ h2{
 
 .mapa{
     width:50%;
-    border: solid black 1px;
     margin: 8px;
     height: 8rem;
 }
