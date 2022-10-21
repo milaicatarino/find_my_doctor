@@ -191,3 +191,8 @@ html, section{
     justify-content: center;
     flex-direction: row;
 } 
+h3{
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
