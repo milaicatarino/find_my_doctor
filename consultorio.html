@@ -3,36 +3,55 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=devide-width, initial-scale">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Consultório</title>
         <link rel="stylesheet" href="./CSS/reset.css">
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header>
-            <a href="./meu_perfil.html" target="_blank">Voltar</a>
-            <h1> Consultório </h1>
+        <header class="header_menor">    
+            <ul class="voltar">
+                <a href="./meu_perfil.html" target="_blank">Voltar</a>
+            </ul>    
+        </header>
+    
             <ul>
-                <li>
-                    <h2>Endereço</h2>
+                <li class="titulos"> 
+                    <p class='consultorio'>
+                    Consultório 
+                    </p>
+                </li>
+
+                <li class="titulos">
+                    Endereço
+                </li>
+                
+                <li class="descricoes">
                     <p>Rua Quatá 300</p>
                 </li>
-                <li>
-                    <h2>Fotos</h2>
-                    <p>
-                    ---------------------------------------------------
-                    ---------------------------------------------------
-                    ---------------------------------------------------
-                    </p>
+
+                <li class="titulos">
+                    Fotos
+                </li>    
+
+                <li class="descricoes">
+                    <li>
+                        <a href="https://picsum.photos" > <img src="https://picsum.photos/100" alt="icone"> </a>
+                        <a href="https://picsum.photos" > <img src="https://picsum.photos/100" alt="icone"> </a>
+                        <a href="https://picsum.photos" > <img src="https://picsum.photos/100" alt="icone"> </a>
+                    </li>
                 </li>
-                <li>
-                    <h2>Descrição</h2>
-                    <p>
+                <li class="titulos">
+                    Descrição
+                </li>
+
+                <li class="descricoes">
                     Clínica dermatologica focada em oncologia cutânea
-                    </p>
+                </li>
+
+                <li class="editar">
                     <a href="./editar.html" target="_blank">Editar</a> 
                 </li>
             </ul>
-        </header>
     </body>
 </html>
