@@ -35,10 +35,10 @@ h2{
     font-weight: bold;
 }
 
-h3{
+h9{
     padding: 1rem;
     font-size: 1rem;
-    font-weight: bold;
+
 }
 
 .icone_meu_perfil{
@@ -130,6 +130,7 @@ form.example button {
 .editar{
     display: flex;
     justify-content: flex-end;
+    padding-right: 2rem;
     flex-direction: row;
     margin-top: 1rem;
 }
@@ -204,4 +205,17 @@ h3{
     padding-left: 3rem;
     font-size: 2rem;
     font-weight: bold;
+}
+.imagem2{
+    width: 2rem;
+    height:2rem;
+}
+h6{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.imagem3{
+    width: 5rem;
+    height:5rem;
 }
