@@ -9,26 +9,41 @@
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header class="nome_perfil">
+        <header>
             <h1>Find my doctor</h1>
             <li class="icone_meu_perfil">
                 <a href="./meu_perfil.html" target="_blank"><img width="60" height="60" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png"  alt=""> </a>
                 <a href="./meu_perfil.html" target="_blank">Meu Perfil</a>
             </li>
         </header>
-        <ul>
-            <li>
+        <nav>
+            <ul>
                 <form action="#">
                     <input type="text" placeholder="Procurar..." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-            </li>
-            <li>
-                <a href="./especialidades.html" target="_blank">Especialidades</a>
-            </li>
-            <li class="mapa">
-                <img width="450" height="600" src="./assets/img/mapa_inc.jpg"  alt="">
-            </li>
+            </ul>
+            <ul>
+                <li>
+                    <form action="./mapa_espec.html">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <label for="especialidades">Especialidades:</label>
+                    <select id="especialidades" name="especialidades">
+                    <option value="oftalmo">Oftalmologista</option>
+                    <option value="ginecologista">ginecologista</option>
+                    <option value="dentista">dentista</option>
+                    <option value="endocrinologista">endocrinologista</option>
+                    <option value="pediatra">pediatra</option>
+                    <option value="dermatologista">dermatologista</option>
+                    <option value="cardiologista">cardiologista</option>
+                    <option value="clinico">clínico geral</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+        <ul class="mapa">
+            <img width="450" height="600" src="./assets/img/mapa_inc.jpg"  alt="">
         </ul>
     </body>
 </html>
