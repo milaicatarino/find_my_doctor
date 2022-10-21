@@ -11,17 +11,21 @@
     <body>
         <header>
             <h1>Find my doctor</h1>
-            <li class="icone_meu_perfil">
-                <a href="./meu_perfil.html" target="_blank"><img class="icone" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png"  alt=""> </a>
-                <a href="./meu_perfil.html" target="_blank">Meu Perfil</a>
-            </li>
+            <ul class="icone_meu_perfil">
+                <li>
+                    <a href="./meu_perfil.html" target="_blank"><img class="icone" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png"  alt=""> </a>
+                    <a href="./meu_perfil.html" target="_blank">Meu Perfil</a>
+                </li>
+            </ul>
         </header>
         <nav>
             <ul class="procurar">
-                <form class="example" action="/action_page.php">
-                    <input type="text" placeholder="Procurar.." name="search2">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <li>
+                    <form  class="example" action="/action_page.php">
+                        <input type="text" placeholder="Procurar.." name="search2">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </li>
             </ul>
             <ul class="especialidades">
                 <li>
@@ -43,13 +47,15 @@
             </ul>
         </nav>
         <ul class="mapa">
-            <iframe
-                loading="lazy"
-                allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAG1V6rDPy-VmGDDZqXUAqsRQ6n5pgsqOg &q=insper,saopaulo+brazil">
+            <li>
+                <iframe
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAG1V6rDPy-VmGDDZqXUAqsRQ6n5pgsqOg&q=insper,saopaulo+brazil">
 
-            </iframe>
+                </iframe>
+            </li>
         </ul>
     </body>
 </html>

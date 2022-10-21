@@ -9,32 +9,54 @@
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header>
-            <a href="./consultorio.html" target="_blank">Voltar</a>
-            <h1> Consultório </h1>
-            <ul>
+        <header class="header_menor">    
+            <ul class="voltar">
                 <li>
-                    <h2>Endereço</h2>
-                    <form action="./consultorio_editado.html">
+                    <a href="./meu_perfil.html" target="_blank">Voltar</a>
+                </li>
+            </ul>    
+        </header>
+        <nav>
+            <ul>
+                <li class="titulos"> 
+                    <p class='consultorio'>
+                    Consultório 
+                    </p>
+                </li>
+            </ul>
+            <ul class="procurar">
+                <li>
+                    <h3>Endereço</h3>
+                    <form class="example" action="#">
                         <input type="text" placeholder="Rua Quatá 300" name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </li>
+            </ul>
+            <ul class="procurar">
                 <li>
-                    <h2>Fotos</h2>
-                    <form action="#">
+                    <h3>Fotos</h3>
+                    <form class="example" action="#">
                         <input type="text" placeholder="......." name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </li>
                 <li>
-                    <h2>Descrição</h2>
-                    <form action="#">
+            </ul>
+            <ul class="procurar">
+                <li>
+                    <h3>Descrição</h3>
+                    <form class="example" action="#">
                         <input type="text" placeholder="Clínica dermatologica focada em oncologia cutânea" name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                 </li>
             </ul>
-        </header>
+            <ul>
+                <li class="editar">
+                    <a href="./consultorio_editado.html" target="_blank">Salvar</a> 
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>

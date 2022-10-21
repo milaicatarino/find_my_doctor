@@ -4,7 +4,8 @@ html,body{
 }
 
 html,nav{
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 html, header{
@@ -13,7 +14,7 @@ html, header{
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    height: 5rem;
+    height: 8rem;
 }
 
 .header_menor{
@@ -24,13 +25,19 @@ html, header{
 
 h1{
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 h2{
     padding: 1rem;
     font-size: 0.5rem;
+    font-weight: bold;
+}
+
+h3{
+    padding: 1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -50,7 +57,7 @@ h2{
     display: flex;
     justify-content: center;
     margin: 1rem;
-    height: 8rem;
+    height: 35rem;
 }
 
 .especialidades{
@@ -75,6 +82,17 @@ form.example input[type=text] {
     width: 10rem;
     height: 1rem;
     background: #f1f1f1;
+}
+
+form.example button {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    background: #2196F3;
+    color: white;
+    border: 0.05rem solid grey;
+    cursor: pointer;
 }
 
 .voltar{
@@ -106,23 +124,14 @@ form.example input[type=text] {
     border-bottom-width: 0.2rem;
     border-bottom-style: solid;
     border-bottom-color: black;
+    padding-left: none;
 }
 
 .editar{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    margin-right: 3rem;
-    margin-top: 3rem;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.01rem;
-    border-radius: 1rem;
-    margin-left: 41rem;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-
-
+    margin-top: 1rem;
 }
 
 hr{
