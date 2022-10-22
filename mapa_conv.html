@@ -9,12 +9,34 @@
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
     <body>
-        <header>
-            <h1>Find my doctor</h1>
-            <img width="100" height="100" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt=""> 
-            <h2> Meu perfil </h2>
-            <h3>Convênio C</h3>
+        <a href="./meu_perfil.html" target="_blank">Voltar</a>
+        <header> 
+            <ul class="linha">
+                <li>
+                    <h1>Find my doctor</h1>
+                </li>
+                <li>
+                    <ul class="icone_meu_perfil">
+                        <li class="coluna">
+                            <a href="./meu_perfil.html" target="_blank"><img class="icone" src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png"  alt=""> </a>
+                            <a href="./meu_perfil.html" target="_blank">Meu Perfil</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </header>
-        <a href="./perfil_janaina.html" target="_blank"><img src="./assets/img/mapa_conv_c.jpg" alt=""> </a>
+        <nav>
+            <h5>Convênio C</h5>
+            <ul class="mapa">
+                <li>
+                    <iframe
+                        loading="lazy"
+                        allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAG1V6rDPy-VmGDDZqXUAqsRQ6n5pgsqOg&q=insper,saopaulo+brazil">
+                    </iframe>
+                </li>
+            </ul>
+        </nav>
     </body>
 </html>

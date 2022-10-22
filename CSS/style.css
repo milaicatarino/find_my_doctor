@@ -21,6 +21,7 @@ html, header{
     height: 3rem;
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 2rem;
 }
 
 h1{
@@ -35,10 +36,9 @@ h2{
     font-weight: bold;
 }
 
-h9{
+.h6{
     padding: 1rem;
     font-size: 1rem;
-
 }
 
 .icone_meu_perfil{
@@ -124,7 +124,7 @@ form.example button {
     border-bottom-width: 0.2rem;
     border-bottom-style: solid;
     border-bottom-color: black;
-    padding-left: none;
+    margin-bottom: 1rem;
 }
 
 .editar{
@@ -144,18 +144,18 @@ hr{
 .coluna {
     display: flex;
     flex-direction: column;
-    }
-    
+}
+
 .linha {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    }
+}
 
 .itens{
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 .topicos{
@@ -176,10 +176,12 @@ hr{
     margin: 1rem;
     height: 5rem;
 }
+
 .imagem{
     width: 5rem;
     height:5rem;
 }
+
 h4{
     display: flex;
     justify-content: center;
@@ -196,25 +198,46 @@ h4{
     border: 0.1rem solid black;
     border-radius: 1rem;
 } 
+
 html, section{
     display: flex;
     justify-content: center;
     flex-direction: row;
 } 
+
 h3{
     padding-left: 3rem;
     font-size: 2rem;
     font-weight: bold;
 }
+
 .imagem2{
     width: 2rem;
     height:2rem;
 }
+
+.chat{
+    width: 20rem;
+    height:35rem;
+}
+
+h5{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+} 
+
 h6{
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
 }
+
 .imagem3{
     width: 5rem;
     height:5rem;
