@@ -39,7 +39,7 @@ h2{
     font-family: 'Lato', sans-serif;
 }
 
-.h6{
+h6{
     padding: 1rem;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
@@ -113,7 +113,6 @@ form.example button {
 }
 
 .titulos{
-    font-weight: bold;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -267,11 +266,15 @@ h5{
     font-family: 'Lato', sans-serif;
 } 
 
-h6{
+h7{
     padding: 1rem;
     font-size: 1rem;
-    font-weight: bold;
     font-family: 'Lato', sans-serif;
+}
+h8{
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .imagem3{
