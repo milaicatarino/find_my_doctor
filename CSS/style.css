@@ -15,6 +15,7 @@ html, header{
     flex-direction: row;
     align-items: center;
     height: 8rem;
+    background: #E6E4E6;
 }
 
 .header_menor{
@@ -29,6 +30,7 @@ h1{
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
+    color: #2E406B;
 }
 
 h2{
@@ -75,6 +77,10 @@ h2{
     justify-content: flex-start;
     margin: 1rem;
     margin-left: 0.5rem;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #2E406B;
+    border-radius: 1rem;
 }
 
 form.example input[type=text] {
@@ -85,17 +91,20 @@ form.example input[type=text] {
     width: 10rem;
     height: 1rem;
     background: #f1f1f1;
+    border-radius: 0.5rem;
 }
 
 form.example button {
     float: right;
-    width: 2rem;
-    height: 2rem;
-    padding: 1rem;
-    background: #2196F3;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    background: #2E406B;
     color: white;
     border: 0.05rem solid grey;
     cursor: pointer;
+    border-radius: 1rem;
+
 }
 
 .voltar{
@@ -110,6 +119,9 @@ form.example button {
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 2rem;
+    margin-right: 15rem;
+    border-radius: 0.3rem;
+    background: #35709C;
 }
 
 .descricoes{
@@ -120,6 +132,11 @@ form.example button {
 }
 
 .consultorio{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 2rem;
     font-size: 2rem;
     border-top-width: 0.2rem;
     border-top-style: solid;
@@ -128,6 +145,7 @@ form.example button {
     border-bottom-style: solid;
     border-bottom-color: black;
     margin-bottom: 1rem;
+    background: #728EA4;
 }
 
 .editar{
@@ -160,6 +178,11 @@ hr{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #2E406B;
+    border-radius: 1rem;
+    margin: 0.5rem;
 }
 
 .topicos{
@@ -179,6 +202,7 @@ hr{
     justify-content: center;
     margin: 1rem;
     height: 5rem;
+    font-family: 'libre baskerville', serif;
 }
 
 .imagem{
@@ -199,9 +223,11 @@ h4{
     padding-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    border: 0.1rem solid black;
-    border-radius: 1rem;
     font-family: 'Lato', sans-serif;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #2E406B;
+    border-radius: 1rem;
 } 
 
 html, section{
@@ -234,8 +260,11 @@ h5{
     padding: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    border: 0.1rem solid black;
+    border-width: 0.3rem;
+    border-style: solid;
+    border-color: #2E406B;
     border-radius: 1rem;
+    margin: 0.5rem;
     font-family: 'Lato', sans-serif;
 } 
 
@@ -250,3 +279,13 @@ h6{
     width: 5rem;
     height:5rem;
 }
+
+/* 
+    background: #2196F3;
+
+2E406B
+E6E4E6
+35709C
+728EA4
+4D5D90
+ */
