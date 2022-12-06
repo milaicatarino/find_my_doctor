@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for (option of options) {
 
-        a.addEventListener('click', function(event) {
+        option.addEventListener('click', function(event) {
 
             t = event.currentTarget
             
@@ -19,8 +19,16 @@ document.addEventListener('DOMContentLoaded', function() {
             //como pegar só essa parte
 
             localStorage.setItem('convenio', option.innerHTML)
+            event.preventDefault()
 
         })
 
     }
 })
+
+// document.addEventListener('DOMContentLoaded', function() {
+
+//     especialidade = document.querySelector('.especialidade')
+//     especialidade.innerHTML = localStorage.getItem('especialidade')
+
+// })
