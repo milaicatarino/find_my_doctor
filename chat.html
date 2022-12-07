@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Libre+Baskerville&family=Open+Sans:wght@400;700&family=Vollkorn&display=swap" rel="stylesheet">
+        <script src="js/chat.js"></script>
     </head>
     <body>
         <header class="header_menor">    
@@ -22,10 +23,42 @@
         <nav>
             <ul>
                 <li class='consultorio'> 
-                    <h1>Chat</h1> 
+                    <h1>Chat - Dra. Janaína</h1> 
                 </li>
-                <li>
-                    <img class="chat" src="./assets/img/chat.jpg"  alt="">
+                <li class="msg-panel" id="main">
+                    <section class="msg-usuario">
+                        <div class="msg-titulo">
+                            <h6 class="nomes">Nome do Usuário</h6>
+                            <h2 class="nomes">Horário</h2>
+                        </div>
+                        <div class="bolha-usuario">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus debitis itaque aliquam!</p>
+                        </div>
+                        <span id="notificacao-msg-1"></span>
+                    </section>
+                    <section class="msg-resposta">
+                        <div class="msg-titulo-invertida">
+                            <h6 class="nomes">Nome do Usuário</h6>
+                            <h2 class="nomes">Horário</h2>
+                        </div>
+                        <div class="bolha-resposta">    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, unde.</p>
+                        </div>
+                    </section>
+                    <section class="msg-usuario">
+                        <div class="msg-titulo">
+                            <h6 class="nomes">Nome do Usuário</h6>
+                            <h2 class="nomes">Horário</h2>
+                        </div>
+                        <div class="bolha-usuario">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <span id="notificacao-msg-2"></span>
+                    </section>
+                </li>
+                <li class="bloco-envio-msg">
+                    <input class="entrada-msg" type="text" placeholder="Digite sua mensagem">
+                    <button class="botao-enviar">Enviar</button>
                 </li>
             </ul>
         </nav>

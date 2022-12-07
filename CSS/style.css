@@ -277,17 +277,91 @@ h8{
     font-family: 'Libre Baskerville', serif;
 }
 
+.nomes{
+    color: black;
+}
+
 .imagem3{
     width: 5rem;
     height:5rem;
 }
 
-/* 
-    background: #2196F3;
+.msg-titulo, .msg-titulo-invertido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
-2E406B
-E6E4E6
-35709C
-728EA4
-4D5D90
- */
+.msg-titulo-invertido{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.msg-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.msg-resposta, .msg-usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 2.5rem;
+    padding: 1rem;
+    color: white;
+}
+
+.msg-usuario{
+    align-self: flex-start;
+}
+
+.msg-resposta{
+    align-self: flex-end;
+}
+
+.bolha-usuario{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background-color:#35709C;
+    border: #35709C 0.2rem solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.bolha-resposta{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    background-color: #4d5d90;
+    border-color: #4d5d90;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.bloco-envio-msg{
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem;
+    margin: 1.2rem;
+}
+
+.entrada-msg{
+    width: 80%;
+    margin-right: 1%;
+    border: #35709C 1px solid;
+}
+
+.botao-enviar{
+    width: 20%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #35709C;
+}
+
+input[type="text"]
+{
+    padding: 0.4rem;
+    font-size: 18px;
+}
