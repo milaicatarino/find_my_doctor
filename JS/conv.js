@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // e coloque eles na página.
     convenios = document.querySelector('.convenios')
 
-    convenios.innerHTML= 'Clínicas da especialidade: ' + localStorage.getItem('conv') + '\n'
+    convenios.innerHTML= 'Clínicas do convênio: ' + localStorage.getItem('conv') + '\n'
 
 
 })
