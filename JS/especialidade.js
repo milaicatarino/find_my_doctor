@@ -1,34 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    // SEU CÓDIGO AQUI: pegue do localStorage o
-    // nome e o src da imagem da pessoa clicada
-    // e coloque eles na página.
-    h7= document.querySelector('h7')
+    especialidade = document.querySelector('.esp')
 
-    h7.innerHTML= 'Clínicas da especialidade: ' + localStorage.getItem('especialidade') + '\n'
+    especialidade.innerHTML= 'Clínicas da especialidade: ' + localStorage.getItem('key') + '\n'
 
-    options = document.querySelectorAll('option')
+    botao = document.querySelector('button')
 
-    for (option of options) {
-
-        option.addEventListener('click', function(event) {
-
-            t = event.currentTarget
+    botao.addEventListener('click', function(event) {
             
-            option= t.querySelector('option')
-            //como pegar só essa parte
+        conv = document.getElementById("convenios").value
+        localStorage.setItem("conv",conv)
+        
+          })
 
-            localStorage.setItem('convenio', option.innerHTML)
-            event.preventDefault()
+    
 
-        })
-
-    }
 })
-
-// document.addEventListener('DOMContentLoaded', function() {
-
-//     especialidade = document.querySelector('.especialidade')
-//     especialidade.innerHTML = localStorage.getItem('especialidade')
-
-// })

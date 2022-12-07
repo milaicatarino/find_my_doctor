@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    h5= document.querySelector('h5')
+    // SEU CÓDIGO AQUI: pegue do localStorage o
+    // nome e o src da imagem da pessoa clicada
+    // e coloque eles na página.
+    convenios = document.querySelector('.convenios')
 
-    h5.innerHTML= 'Clínicas do convênio: ' + localStorage.getItem('convenio')
+    convenios.innerHTML= 'Clínicas da especialidade: ' + localStorage.getItem('conv') + '\n'
+
 
 })
